@@ -84,12 +84,11 @@ ends
          mov BL,base
          
          scriviBase:
-         MOV AH,02H
-         int 21h
          dec BL
          cmp BL,0h
          jl esci
-         dec BL
+         MOV AH,02H
+         int 21h
          jmp scriviBase
          
          esci:
