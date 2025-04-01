@@ -16,8 +16,8 @@ cd Archivio
 move ..\..\..\auto.docx .
 ren auto.docx auto_old.docx
 mov auto_old.docx ..\Lavoro\Moduli
+type ..\Clienti\cliente1
 cd ..\Clienti
-dir 
 del cliente*.txt
 move ..\..\..\banca.docx ..\Finanza
 ren ..\Finanza Casa
